@@ -47,7 +47,7 @@ function commandFinder(cmd) {
 		}
 		if (i + 1 == activeCommands.commands.length) {
 			clearScreen()
-			console.log("You didn't enter a valid command.")
+			console.log("You didn't enter a valid command.\nNeed help? Type in 'help' as your input.\n")
 			askForPrompt()
 		}
 	}
