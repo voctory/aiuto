@@ -1,0 +1,9 @@
+{
+	"commands": [{
+		"name": "help",
+		"file": "./cmdfiles/help.js"
+	}, {
+		"name": "exit",
+		"file": "./cmdfiles/exit.js"
+	}]
+}
